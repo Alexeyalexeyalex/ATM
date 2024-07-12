@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройка ATM</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Настройка ATM</h1>
+
+        <div class="settings_block">
+            <div id="cassettes"></div>
+            <button onclick="addCassette()">Добавить кассету</button>
+            <button onclick="removeCassette()">Удалить кассету</button>
+        </div>
+        
+        <label>Сумма для выдачи:</label>
+        <input id="amount" type="number" min="1" step="1">
+        <button onclick="calculate()">Рассчитать</button>
+        
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

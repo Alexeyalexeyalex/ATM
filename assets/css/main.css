@@ -1,0 +1,16 @@
+.container { 
+    margin: 20px; 
+}
+
+.cassette { 
+    margin-bottom: 10px; 
+}
+
+.result { 
+    margin-top: 20px; 
+}
+
+.settings_block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
